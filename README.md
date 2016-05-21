@@ -8,10 +8,9 @@ Download from http://example.com/FIXME.
 
 ## Usage
 
-FIXME: explanation
+    $ java -jar sms-spam-0.1.0-standalone.jar uname passwd <file containing message> <file containing numbers>
 
-    $ java -jar sms-spam-0.1.0-standalone.jar [args]
-
+The numbers file should contain numbers with country-code prefix, and they should be separated by newlines
 ## Options
 
 FIXME: listing of options this app accepts.
